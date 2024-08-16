@@ -6,3 +6,5 @@ Optional you can connect 4 buttons to IO-pins B0 - B3. They will do the same as 
 The pressed butten can be visualized with a RGB LED connected to IO pins B7, C0 and D6. In Arduino IDE they are called 4, 5 and 9. The LED will light up for half a second after a key is pressed.
 
 Remember to set the teensy to keyboard in the tools menu of Arduino IDE. And you need to install teensyduino to make this available.
+
+If you don't change the code to make it fit to your needs, it will send Ctrl+1, Ctrl+2, Ctrl+3 and Ctrl+4. This is for switching the video input of an Atem Mini. 
